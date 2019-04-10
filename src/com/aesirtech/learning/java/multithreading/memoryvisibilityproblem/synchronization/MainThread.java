@@ -1,7 +1,7 @@
 package com.aesirtech.learning.java.multithreading.memoryvisibilityproblem.synchronization;
 
 /**
- * @ProjectName: Multithreading
+ * @ProjectName: Concurrent Programming
  * @Description: A Synchronized Solution of Memory-Visibility-Problem.
  * @Author: Aesir
  * @Date: 2019/4/10 19:22

@@ -1,7 +1,7 @@
 package com.aesirtech.learning.java.multithreading.memoryvisibilityproblem.volatilesolution;
 
 /**
- * @ProjectName: Multithreading
+ * @ProjectName: Concurrent Programming
  * @Description: A Volatile Solution of Memory-Visibility-Problem.
  * @Author: Aesir
  * @Date: 2019/4/10 19:22
