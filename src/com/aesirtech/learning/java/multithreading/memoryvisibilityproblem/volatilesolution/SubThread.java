@@ -26,11 +26,11 @@ public class SubThread implements Runnable {
      * 1. Reordering of compiler optimization (compiler optimization)
      * 2. Instruction level parallel reordering (processor optimization)
      * 3. Reordering of memory systems (processor optimization)
-     * Reordering does not cause memory visibility problems for single threads (because of as-if-series semantics)
-     * But can cause memory visibility problems when programs are interleaved in multi-threads.
+     * Reordering does not cause memory visibility problems for single threads (because of as-if-series semantics),
+     * but can cause memory visibility problems when programs are interleaved in multi-threads.
      *
      * As-if-series semantics:
-     * Regardless of reordering, the results of program execution should be consistent
+     * Regardless of reordering, the results of program execution should be consistent.
      * Java compilers, runtime and processors guarantee that Java follows as-if-series semantics in a single thread.
      *
      * Volatile is a lightweight solution to Memory-Visibility-Problem.
