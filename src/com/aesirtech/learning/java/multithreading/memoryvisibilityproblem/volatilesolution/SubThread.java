@@ -29,7 +29,7 @@ public class SubThread implements Runnable {
      * Reordering does not cause memory visibility problems for single threads (because of as-if-series semantics)
      * But can cause memory visibility problems when programs are interleaved in multi-threads.
      *
-     * As-if-series semantics
+     * As-if-series semantics:
      * Regardless of reordering, the results of program execution should be consistent
      * Java compilers, runtime and processors guarantee that Java follows as-if-series semantics in a single thread.
      *
