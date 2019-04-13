@@ -14,7 +14,7 @@ public class MainThread {
 
         while (true) {
             /*
-             * Two provisions on synchronized in JVM:
+             * Two provisions on synchronized in JMM:
              * Before a thread unlocks, it must refresh the latest values of shared variables to main memory.
              * When a thread locks, the values of shared variables in working memory are cleared so that the latest values need to be re-read from memory when using shared variables.
              * (note: locking and unlocking need to be the same lock).

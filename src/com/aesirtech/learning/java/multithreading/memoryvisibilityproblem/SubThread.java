@@ -2,7 +2,7 @@ package com.aesirtech.learning.java.multithreading.memoryvisibilityproblem;
 
 /**
  * @ProjectName: Concurrent Programming
- * @Description: A simple demostration of Memory-Visibility-Problem.
+ * @Description: A Simple Demostration of Memory-Visibility-Problem.
  * @Author: Aesir
  * @Date: 2019/4/10 19:23
  */
