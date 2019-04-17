@@ -38,13 +38,11 @@ public class ReadWriteLockCache {
         try {
             Thread thread = Thread.currentThread();
             System.out.println(thread.getName() + "\t is reading " + key);
-
             try {
                 TimeUnit.MILLISECONDS.sleep(300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
             Object result = map.get(key);
             System.out.println(thread.getName() + "\t reads " + result);
         } finally {
