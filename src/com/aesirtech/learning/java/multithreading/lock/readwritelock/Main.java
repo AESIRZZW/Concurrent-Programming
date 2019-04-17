@@ -9,6 +9,7 @@ package com.aesirtech.learning.java.multithreading.lock.readwritelock;
 public class Main {
     public static void main(String[] args) {
         ReadWriteLockCache ReadWriteLockCache = new ReadWriteLockCache();
+
         for (int i = 0; i < 5; i++) {
             // Variable used in lambda expression should be final or effectively final.
             final int temp = i + 1;
